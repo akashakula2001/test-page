@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f5f7fa;
+}
+
+.contact-page {
+  max-width: 42rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  color: #174a7e;
+}
+
+a {
+  color: #075ea8;
+}
