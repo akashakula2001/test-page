@@ -21,3 +21,52 @@ h1 {
 a {
   color: #075ea8;
 }
+
+.office-hours {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.office-hours__title {
+  color: #174a7e;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.office-hours__schedule {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.office-hours__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.office-hours__day {
+  font-weight: bold;
+  color: #333;
+}
+
+.office-hours__time {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .office-hours {
+    padding-top: 1rem;
+  }
+
+  .office-hours__schedule {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
